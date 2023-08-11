@@ -70,6 +70,8 @@ export default function ForecastList() {
                     }}
                     >
                         <Text>{item.name} {item.temperature}</Text>
+                        <Text></Text>
+                        <Text>{item.shortForecast}</Text>
                     </TouchableOpacity>
                 )}
                 style={{ width: '100%' }}
